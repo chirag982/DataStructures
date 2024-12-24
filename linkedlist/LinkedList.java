@@ -50,6 +50,35 @@ public class LinkedList {
         }
     }
 
+    public void Prepend(int value) {
+        Node newNode = new Node(value);
+        if(length == 0) {
+            head = newNode;
+            tail = newNode;
+        }
+        else {
+            newNode.next = head;
+            head = newNode;
+        }
+        length++;
+    }
+
+    public Node removeFirst() {
+        Node temp = head;
+        if(length == 0) {
+            return null;
+        }
+        else {
+            head = head.next;
+            temp.next = null;
+            length--;
+            if(length==0) {
+                tail = null;
+            }
+        }
+        return temp;
+    }
+
     public LinkedList(int value) {
         Node newNode = new Node(value);
         head = newNode;
