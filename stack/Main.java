@@ -10,17 +10,28 @@ public class Main {
         // myStack.getHeight();
         // myStack.printStack();
 
-        Stack myStack = new Stack(2);
+
+        // Stack myStack = new Stack(2);
+        // System.out.println("");
+        // myStack.getTop();
+        // myStack.getHeight();
+        // myStack.printStack();
+        // myStack.push(1);
+        // System.out.println("");
+        // myStack.getTop();
+        // myStack.getHeight();
+        // myStack.printStack();
+
+
+        Stack myStack = new Stack(7);
         System.out.println("");
-        myStack.getTop();
-        myStack.getHeight();
+        myStack.push(23);
+        myStack.push(3);
+        myStack.push(11);
+
+        myStack.pop();
         myStack.printStack();
 
-        myStack.push(1);
-        System.out.println("");
-        myStack.getTop();
-        myStack.getHeight();
-        myStack.printStack();
 
     }
 
