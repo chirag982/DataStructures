@@ -10,10 +10,18 @@ public class Main {
         // myQueue.printQueue();
 
 
-        Queue myQueue = new Queue(1);
-        myQueue.enqueue(2);
+        // Queue myQueue = new Queue(1);
+        // myQueue.enqueue(2);
+        // System.out.println("");
+        // myQueue.printQueue();
+
+
+        Queue myQueue = new Queue(2);
+        myQueue.enqueue(1);
         System.out.println("");
-        myQueue.printQueue();
+        System.out.println(myQueue.dequeue().value);
+        System.out.println(myQueue.dequeue().value);
+        System.out.println(myQueue.dequeue());
     }
     
 }
