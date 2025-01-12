@@ -23,16 +23,13 @@ public class Main {
         // myStack.printStack();
 
 
-        Stack myStack = new Stack(7);
-        System.out.println("");
-        myStack.push(23);
-        myStack.push(3);
-        myStack.push(11);
-
-        myStack.pop();
-        myStack.printStack();
-
+        // Stack myStack = new Stack(7);
+        // System.out.println("");
+        // myStack.push(23);
+        // myStack.push(3);
+        // myStack.push(11);
+        // myStack.pop();
+        // myStack.printStack();
 
     }
-
 }
