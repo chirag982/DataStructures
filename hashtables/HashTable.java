@@ -55,4 +55,14 @@ public class HashTable {
         }
     }
 
+    public int get(String key) {
+        int index = hash(key);
+        Node temp = dataMap[index];
+        while (temp!=null) {
+            if (temp.key == key) return temp.value;
+            temp = temp.next;
+        } 
+        return 0;
+    }
+
 }
