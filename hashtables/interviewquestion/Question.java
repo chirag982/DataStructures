@@ -21,4 +21,4 @@ public class Question {
 
         System.out.println(itemInCommon(array1, array2));
     }
-}   
+}
