@@ -16,8 +16,6 @@ public class main {
         // System.out.println(myHeap.getHeap());
 
 
-
-
         Heap myHeap = new Heap();
         myHeap.insert(95);
         myHeap.insert(75);
